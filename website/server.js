@@ -83,7 +83,7 @@ app.listen(app.get('port'), function () {
 function get_featured_list() {
   request(
     {
-      url: "https://api.github.com/repos/rchurchley/erdos-bacon-sabbath/contents/data",
+      url: "https://api.github.com/repos/evhub/erdos-bacon-sabbath/contents/data",
       headers: { 'User-Agent': "erdosbaconsabbath-bot" }
     },
     function (error, response, body) {
